@@ -427,7 +427,7 @@ def set_context(root_cids, binary_spread_table, concept_ancestor_df):
     return new_concept_ancestor_df
 
 
-def extract_roll_up_count(root_cids: list[int], binary_spread_table: pd.DataFrame, concept_ancestor_df: pd.DataFrame) \
+def extract_roll_up_count(root_cids: list, binary_spread_table: pd.DataFrame, concept_ancestor_df: pd.DataFrame) \
         -> pd.DataFrame:
     """
     This is a function to calculate roll up count (adding up all the item counts of the concepts within the
