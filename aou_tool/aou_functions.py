@@ -336,7 +336,7 @@ def convert_to_one(x):
         return x
 
 
-def extract_spread_table(dataset_condition_df: pd.DataFrame, form: str) -> tuple[pd.DataFrame, pd.DataFrame]:
+def extract_spread_table(dataset_condition_df: pd.DataFrame, form: str):
     """
     This function converts a long table dataframe to its spread table form.
 
