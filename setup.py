@@ -10,5 +10,5 @@ setuptools.setup(
 
     url='https://github.com/ClarenceJiang71/aou_tool',
     packages=['aou_tool'],
-    install_requires=['requests', 'os', 'subprocess', 'numpy', 'pandas', 'hail', 'seaborn', 'matplotlib'],
+    install_requires=['requests', 'subprocess', 'numpy', 'pandas', 'hail', 'seaborn', 'matplotlib'],
 )
